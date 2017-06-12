@@ -5,6 +5,13 @@
 https://www.104.com.tw/2017hackathon/
 ## 主題說明
 Open data資料多元綜合運用，以獨特分析角度提出職場與外部環境的相關性闡釋，如：因產業趨勢輪替，特殊職類的需求迭起。請參賽者利用主辦單位所提供之資料集，歡迎結合外部的第三方資訊，繪製成資訊視覺化圖表，做為求職者選擇工作或求才廠商徵才招募的參考資訊。
+## 範例 - Bubble Chart 
+先將104職務資料集中的結構化職務資料統計出每個職類的職缺數，把統計完的結果整理成d3js範例相同的格式即可畫出範例的bubble-chart。  
+
+[詳細說明](https://github.com/104corp/2017-104Hackathon-Visualization/tree/master/d3js-example)  
+
+<img src="https://github.com/104corp/2017-104Hackathon-Visualization/blob/master/d3js-example/bubble-chart.png"  width="50%">
+
 ## 資料集說明
 * 104求職者去識別化行為記錄
     + File: user_log.csv
@@ -46,7 +53,6 @@ Open data資料多元綜合運用，以獨特分析角度提出職場與外部�
             - 職務類目: job_category.csv [Sample](https://github.com/104corp/2017-104Hackathon-Visualization/blob/master/sample-data/job_category_sample.csv)
         - Description: 在職務結構化欄位中的類目對照
         - 訓練資料集將在賽前以Email通知參賽者
-* [D3.js範例](https://github.com/104corp/2017-104Hackathon-Visualization/tree/master/d3js-example)
 
 ## 評分標準
 * 創新70%
